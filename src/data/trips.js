@@ -35,12 +35,101 @@ export const TRIPS=[
    guidelines:['Report at pickup point 15 min before departure','Booking without reading the itinerary and T&C is the customers responsibility.','As this is a budget trip, travellers must coordinate with the Trip Guide from Trip Karunadu, and the Trip Guide’s decisions will be final.','If the trip is not available on a particular date, an alternate trek will be offered. Refunds will not be initiated.','Inform guide of any medical conditions before trek'],
    contact:{note:'Pickup schedule and detailed meeting points shared via WhatsApp 24 hours before the trip.',nums:['+91 9900980260','+91 7204890439']}},
 
-  {id:4,available:true,name:'Coorg Coffee & Nature Tour',imgKey:"coorg",cat:'twoday-sight',price:3499,oldPrice:4699,dist:'250 km',dur:'2D 1N',diff:'easy',slots:18,em:'☕',rating:4.9,reviews:28,
+  {id:4,available:true,name:'Coorg Coffee & Nature Tour',imgKey:"coorg",cat:'twoday-sight',price:3999,oldPrice:4499,dist:'250 km',dur:'2D 1N',diff:'easy',slots:18,em:'☕',rating:4.9,reviews:28,
    desc:'Immerse in lush Coorg — coffee estates, Abbey Falls, Raja\'s Seat, Namdroling Golden Temple, and warm homestay hospitality.',
    overview:['Coorg — or Kodagu — is Karnataka\'s most beloved hill district, draped in coffee, cardamom, and orange plantations. The air smells of freshly ground Arabica, mist clings to the valleys in the morning, and the people are famously warm and hospitable. This two-day tour is our most popular itinerary, loved by families, couples, and friend groups alike.','We stay at a traditional Kodava homestay where you\'ll sleep to the sound of rain on plantation leaves and wake up to filter coffee brewed from beans picked right on the property. Day one covers Abbey Falls, Raja\'s Seat, and the golden wonder of Namdroling Monastery. Day two is for coffee estate walks, Dubare elephant camp, and a leisurely drive home.','This trip requires zero physical effort — it\'s pure immersion in culture, nature, and food. The only thing you need to bring is curiosity and an appetite.'],
    highlights:['Stay at a traditional Kodava coffee estate homestay','Walk through a working coffee & cardamom plantation','Abbey Falls — 70-ft cascade in lush forest','Golden Namdroling Monastery — largest Nyingma temple outside Tibet','Raja\'s Seat — sunset viewpoint favoured by Tipu Sultan','Dubare Elephant Camp interaction (Day 2)'],
-   itin:[{t:'Day 1 — 5:30 AM',h:'Departure from Bengaluru',d:'Meet at Silk Board. Board AC vehicle.'},{t:'Day 1 — 10:00 AM',h:'Check-in & Breakfast',d:'Arrive at homestay. Freshly brewed estate coffee and South Indian breakfast.'},{t:'Day 1 — 11:30 AM',h:'Abbey Falls',d:'Short forest walk to the beautiful 70-ft waterfall. Photo time.'},{t:'Day 1 — 2:00 PM',h:'Namdroling Monastery',d:'Explore the stunning golden temple complex — vibrant murals and peaceful prayer halls.'},{t:'Day 1 — 4:30 PM',h:'Raja\'s Seat',d:'Watch the sunset from Tipu Sultan\'s favourite viewpoint. Cool breeze, musical fountain.'},{t:'Day 1 — 7:30 PM',h:'Dinner & Campfire',d:'Traditional Kodava meal at homestay followed by bonfire under the stars.'},{t:'Day 2 — 7:00 AM',h:'Coffee Estate Walk',d:'Guided walk through the plantation — learn to identify coffee, cardamom, pepper.'},{t:'Day 2 — 10:00 AM',h:'Dubare Elephant Camp',d:'Watch elephants being bathed in the Cauvery river. Feeding session (entry extra).'},{t:'Day 2 — 1:00 PM',h:'Lunch & Departure',d:'Lunch at homestay. Begin return drive to Bengaluru.'},{t:'Day 2 — 6:30 PM',h:'Bengaluru Arrival',d:'Drop at Silk Board.'}],
-   facts:[{i:'☕',l:'Coffee Variety',v:'Arabica & Robusta'},{i:'🌿',l:'Forest Cover',v:'30% of district'},{i:'🌡️',l:'Temperature',v:'15–25°C'},{i:'🏨',l:'Accommodation',v:'Kodava Homestay'}],
+itin: [
+  {
+    t: 'Day 0 — 9:00 PM',
+    h: 'Departure from Bengaluru',
+    d: 'Board Non-AC Tempo Traveller / pushback-seat bus (depending on group size) for an overnight journey to Coorg.'
+  },
+
+  {
+    t: 'Day 1 — 6:00 AM',
+    h: 'Arrival & Refresh',
+    d: 'Reach Coorg, check into stay, freshen up and relax amidst the scenic surroundings.'
+  },
+
+  {
+    t: 'Day 1 — 7:30 AM',
+    h: 'Breakfast',
+    d: 'Enjoy a hearty local breakfast (self-sponsored).'
+  },
+
+  {
+    t: 'Day 1 — 9:00 AM',
+    h: 'Mandalpatti Peak',
+    d: 'Experience an off-road jeep ride to Mandalpatti viewpoint for breathtaking views (self-sponsored).'
+  },
+
+  {
+    t: 'Day 1 — 12:00 PM',
+    h: 'Abbey Falls',
+    d: 'Visit the beautiful Abbey Falls surrounded by coffee plantations.'
+  },
+
+  {
+    t: 'Day 1 — 2:00 PM',
+    h: 'Lunch',
+    d: 'Enjoy a traditional Coorgi meal at a local restaurant (self-sponsored).'
+  },
+
+  {
+    t: 'Day 1 — 4:30 PM',
+    h: 'Raja’s Seat Sunset',
+    d: 'Witness a mesmerizing sunset with panoramic valley views.'
+  },
+
+  {
+    t: 'Day 1 — 6:00 PM',
+    h: 'Local Market Exploration',
+    d: 'Explore local markets for spices, coffee, and souvenirs.'
+  },
+
+  {
+    t: 'Day 1 — 8:00 PM',
+    h: 'Campfire & Dinner',
+    d: 'Enjoy a cozy bonfire session followed by dinner and leisure time.'
+  },
+
+  {
+    t: 'Day 2 — 7:00 AM',
+    h: 'Wake Up & Breakfast',
+    d: 'Start your day with fresh air and a hearty breakfast.'
+  },
+
+  {
+    t: 'Day 2 — 9:00 AM',
+    h: 'Dubare Elephant Camp',
+    d: 'Interact with elephants — feeding, bathing, and observing their activities.'
+  },
+
+  {
+    t: 'Day 2 — 12:30 PM',
+    h: 'Lunch',
+    d: 'Have lunch at a local restaurant (self-sponsored).'
+  },
+
+  {
+    t: 'Day 2 — 2:00 PM',
+    h: 'Tibetan Monastery (Golden Temple)',
+    d: 'Explore the beautiful Namdroling Monastery, known for its golden statues and peaceful ambiance.'
+  },
+
+  {
+    t: 'Day 2 — 4:00 PM',
+    h: 'Return Journey',
+    d: 'Begin return journey to Bengaluru.'
+  },
+
+  {
+    t: 'Day 2 — 11:30 PM',
+    h: 'Arrival at Bengaluru',
+    d: 'Reach Bengaluru between 11:00 PM – 12:00 AM, concluding the trip.'
+  }
+],   facts:[{i:'☕',l:'Coffee Variety',v:'Arabica & Robusta'},{i:'🌿',l:'Forest Cover',v:'30% of district'},{i:'🌡️',l:'Temperature',v:'15–25°C'},{i:'🏨',l:'Accommodation',v:'Kodava Homestay'}],
    carry:['Comfortable walking shoes','Light rain jacket','Camera','Insect repellent','Warm layer for evenings','Personal medications','Valid Government ID'],
    inclusions:['Non AC transport (Bengaluru–Coorg–Bengaluru)','1 night homestay (twin/triple sharing)','Day 1 breakfast + dinner','Day 2 breakfast','All sightseeing entries listed in itinerary','Experienced tour coordinator'],
    exclusions:['Dubare Elephant Camp entry (₹250 approx)','Personal shopping at spice stores','Alcohol & beverages','Travel insurance','Single room supplement (₹800 extra)'],
@@ -63,8 +152,91 @@ export const TRIPS=[
    desc:'Mullayanagiri peak, rolling coffee estates, serene Bhadra dam, and the misty forests of Chikmagalur — Karnataka\'s coffee capital.',
    overview:['Chikmagalur is where Karnataka\'s coffee story began — and where some of India\'s most breathtaking hill scenery unfolds. The district is home to Mullayanagiri, the highest peak in Karnataka at 1,930 m, and the air is perpetually cool, misty, and fragrant with coffee blossom.','Our two-day trail combines a short summit trek to Mullayanagiri with immersive estate visits, a sunset at Baba Budangiri (the dargah of the Sufi saint who brought coffee to India), and a serene morning at Bhadra Wildlife Sanctuary. Day 2 takes you through Hebbe Falls and the lush valleys toward home.','The pace is relaxed and the scenery is non-stop. Whether you\'re a coffee lover, a nature photographer, or simply someone who needs to breathe cooler air, Chikmagalur delivers.'],
    highlights:['Trek to Mullayanagiri — Karnataka\'s highest peak (1,930 m)','Baba Budangiri — birthplace of Indian coffee','Coffee estate guided walk with estate owner','Hebbe Falls — 168 m twin cascade','Morning safari at Bhadra Wildlife Sanctuary','Stunning misty valley landscapes throughout'],
-   itin:[{t:'Day 1 — 5:00 AM',h:'Departure from Bengaluru',d:'Meet at Yeshwanthpur. Board AC vehicle.'},{t:'Day 1 — 10:00 AM',h:'Check-in & Breakfast',d:'Arrive at coffee estate homestay. Breakfast with estate-brewed coffee.'},{t:'Day 1 — 11:30 AM',h:'Mullayanagiri Trek',d:'3 km paved + rocky trail to Karnataka\'s highest point. Spectacular 360° views.'},{t:'Day 1 — 2:30 PM',h:'Baba Budangiri',d:'The mystical cave dargah where coffee seeds were first brought to India. Peaceful and historically fascinating.'},{t:'Day 1 — 5:00 PM',h:'Estate Sunset Walk',d:'Walk through the estate as the mist rolls in. Meet the estate owner, learn about coffee processing.'},{t:'Day 1 — 8:00 PM',h:'Dinner & Bonfire',d:'Traditional Malnad cuisine at homestay. Bonfire and stargazing.'},{t:'Day 2 — 6:00 AM',h:'Bhadra Sanctuary Drive',d:'Early morning wildlife drive through Bhadra. Elephant, deer, and bird sightings.'},{t:'Day 2 — 9:30 AM',h:'Hebbe Falls',d:'Jeep ride + short walk to the stunning 168 m twin falls. Swim if permitted.'},{t:'Day 2 — 12:30 PM',h:'Lunch & Departure',d:'Lunch at estate. Board vehicle for Bengaluru.'},{t:'Day 2 — 7:00 PM',h:'Bengaluru Arrival',d:'Drop at Yeshwanthpur.'}],
-   facts:[{i:'🏔️',l:'Highest Point',v:'1,930 m'},{i:'☕',l:'Coffee',v:'Estate-to-cup'},{i:'🌡️',l:'Climate',v:'Cool & Misty 15–22°C'},{i:'🦅',l:'Bird Species',v:'200+ in Bhadra'}],
+itin: [
+  {
+    t: 'Day 0 — 9:00 PM',
+    h: 'Departure from Bengaluru',
+    d: 'Begin your journey to Chikmagalur in a comfortable vehicle. Enjoy the scenic overnight drive into the hills.'
+  },
+
+  {
+    t: 'Day 1 — 7:00 AM',
+    h: 'Arrival & Breakfast',
+    d: 'Arrive in Chikmagalur, freshen up and enjoy an energizing breakfast.'
+  },
+
+  {
+    t: 'Day 1 — 9:00 AM',
+    h: 'Baba Buddanagiri Peak',
+    d: 'Visit the scenic peak offering breathtaking panoramic views of the Western Ghats.'
+  },
+
+  {
+    t: 'Day 1 — 11:00 AM',
+    h: 'Jhari Waterfalls',
+    d: 'Enjoy the refreshing waterfall surrounded by lush greenery (jeep ride may be required, self-sponsored).'
+  },
+
+  {
+    t: 'Day 1 — 1:30 PM',
+    h: 'Mullayanagiri Peak',
+    d: 'Explore the highest point in Karnataka and soak in stunning 360° views.'
+  },
+
+  {
+    t: 'Day 1 — 3:30 PM',
+    h: 'Coffee Plantation Visit',
+    d: 'Walk through a coffee estate and learn about coffee cultivation and processing.'
+  },
+
+  {
+    t: 'Day 1 — 5:30 PM',
+    h: 'Siri Cafe',
+    d: 'Relax at a popular local café and enjoy refreshments.'
+  },
+
+  {
+    t: 'Day 1 — 7:30 PM',
+    h: 'Check-in & Relaxation',
+    d: 'Return to accommodation, unwind and relax after a day of exploration.'
+  },
+
+  {
+    t: 'Day 2 — 7:00 AM',
+    h: 'Breakfast',
+    d: 'Enjoy a hearty breakfast before heading out for the day.'
+  },
+
+  {
+    t: 'Day 2 — 9:00 AM',
+    h: 'Yogachi Water Activities',
+    d: 'Experience thrilling water sports like kayaking and boating in a scenic riverside setting (self-sponsored, safety gear provided).'
+  },
+
+  {
+    t: 'Day 2 — 12:30 PM',
+    h: 'Beluru Temple',
+    d: 'Visit the historic Chennakesava Temple known for its intricate Hoysala architecture.'
+  },
+
+  {
+    t: 'Day 2 — 2:30 PM',
+    h: 'Halebidu',
+    d: 'Explore ancient temples showcasing exquisite carvings and rich heritage.'
+  },
+
+  {
+    t: 'Day 2 — 4:30 PM',
+    h: 'Return Journey',
+    d: 'Begin your return journey to Bengaluru.'
+  },
+
+  {
+    t: 'Day 2 — 10:30 PM',
+    h: 'Arrival at Bengaluru',
+    d: 'Reach Bengaluru late at night with unforgettable memories of Chikmagalur.'
+  }
+],   facts:[{i:'🏔️',l:'Highest Point',v:'1,930 m'},{i:'☕',l:'Coffee',v:'Estate-to-cup'},{i:'🌡️',l:'Climate',v:'Cool & Misty 15–22°C'},{i:'🦅',l:'Bird Species',v:'200+ in Bhadra'}],
    carry:['Light trekking shoes','Warm jacket & light sweater','Rain jacket (misty region)','Camera','Insect repellent','Sunscreen','Personal medications'],
    inclusions:['Non AC transport (Bengaluru round trip)','1 night estate homestay (twin sharing)','Day 1 breakfast + dinner','Day 2 breakfast + packed lunch','Mullayanagiri entry','Estate walk with guide','Bhadra safari jeep (shared)'],
    exclusions:['Hebbe Falls jeep (₹400 shared, optional)','Personal beverages & alcohol','Shopping at estate store','Travel insurance'],
@@ -111,8 +283,103 @@ export const TRIPS=[
    desc:'Explore the UNESCO World Heritage ruins of the Vijayanagara Empire — boulder-strewn landscapes, ancient temples, and sunset at Hemakuta Hill.',
    overview:['Hampi is unlike anywhere else in the world. The ruins of the Vijayanagara Empire (14th–16th century) — once one of Asia\'s wealthiest cities — sprawl across a surreal landscape of giant rust-red boulders, banana plantations, and the turquoise Tungabhadra River. Walking between temples here feels like stepping inside a fever dream of history.','Over two days, we cover the Royal Enclosure, Virupaksha Temple, Vittala Temple with its iconic stone chariot, the Queen\'s Bath, and the Lotus Mahal — plus sunrise at Matanga Hill and sunset at Hemakuta. Our guide is a certified archaeologist who brings the empire\'s stories vividly to life.','The pace is immersive but relaxed. We stay in a riverside guesthouse on the "hippie island" side of the Tungabhadra — across the river from the main ruins, reachable by coracle. The evenings here are pure magic.'],
    highlights:['UNESCO World Heritage Site — Vijayanagara ruins','Vittala Temple & iconic stone chariot','Sunrise from Matanga Hill — 360° boulder panorama','Sunset at Hemakuta Hill — unforgettable','Coracle ride across Tungabhadra River','Certified archaeologist guide throughout'],
-   itin:[{t:'Day 1 — 6:00 PM',h:'Departure (overnight bus)',d:'Board overnight bus/vehicle from Majestic Bus Stand. Arrive Hampi by 4 AM.'},{t:'Day 2 — 5:00 AM',h:'Matanga Hill Sunrise',d:'Climb to Matanga Hill before dawn. Watch the sun rise over the boulder kingdom.'},{t:'Day 2 — 8:00 AM',h:'Breakfast & Check-in',d:'Breakfast at riverside café. Check into guesthouse on Virupapur Gaddi (hippie island).'},{t:'Day 2 — 10:00 AM',h:'Royal Enclosure',d:'Elephant Stables, Lotus Mahal, Hazara Rama Temple. Guided tour.'},{t:'Day 2 — 1:00 PM',h:'Lunch Break',d:'Lunch at a Hampi café. Rest during peak afternoon heat.'},{t:'Day 2 — 3:00 PM',h:'Vittala Temple & Stone Chariot',d:'The crown jewel of Hampi — musical pillars and the iconic stone chariot.'},{t:'Day 2 — 6:00 PM',h:'Hemakuta Sunset',d:'Watch the sun set behind the Virupaksha temple tower — an unforgettable sight.'},{t:'Day 2 — 9:00 PM',h:'Overnight Bus Return',d:'Board overnight return bus to Bengaluru.'},{t:'Day 3 — 6:00 AM',h:'Bengaluru Arrival',d:'Arrive at Majestic. End of trip.'}],
-   facts:[{i:'🏛️',l:'Heritage',v:'UNESCO World Heritage'},{i:'🌡️',l:'Best Season',v:'Oct–Feb'},{i:'🚌',l:'Distance',v:'340 km'},{i:'⏳',l:'Empire Period',v:'14th–16th Century'}],
+itin: [
+  {
+    t: 'Day 1 — 6:00 PM',
+    h: 'Departure from Bengaluru',
+    d: 'Board overnight bus/vehicle from Majestic Bus Stand towards Hampi.'
+  },
+
+  {
+    t: 'Day 2 — 6:00 AM',
+    h: 'Arrival & Check-in',
+    d: 'Arrive at Hampi, check into stay, freshen up and relax.'
+  },
+
+  {
+    t: 'Day 2 — 8:00 AM',
+    h: 'Breakfast & Relaxation',
+    d: 'Enjoy a delicious local breakfast (self-sponsored) and prepare for the day.'
+  },
+
+  {
+    t: 'Day 2 — 10:00 AM',
+    h: 'Sanapur Lake',
+    d: 'Visit the serene Sanapur Lake, a hidden gem surrounded by rocky landscapes. Perfect for relaxation and photography.'
+  },
+
+  {
+    t: 'Day 2 — 12:00 PM',
+    h: 'Coracle Ride & Cliff Jumping',
+    d: 'Experience a traditional coracle ride. Adventure lovers can try cliff jumping (self-sponsored).'
+  },
+
+  {
+    t: 'Day 2 — 4:30 PM',
+    h: 'Anjanadri Hills Sunset Trek',
+    d: 'Trek to the birthplace of Lord Hanuman and enjoy breathtaking sunset views from the hilltop.'
+  },
+
+  {
+    t: 'Day 2 — 7:30 PM',
+    h: 'Relax at Stay',
+    d: 'Return to accommodation, unwind and enjoy a peaceful evening.'
+  },
+
+  {
+    t: 'Day 3 — 6:30 AM',
+    h: 'Wake Up & Freshen Up',
+    d: 'Start your day early for exploring Hampi’s rich heritage.'
+  },
+
+  {
+    t: 'Day 3 — 8:00 AM',
+    h: 'Breakfast',
+    d: 'Have a wholesome breakfast (self-sponsored) before sightseeing.'
+  },
+
+  {
+    t: 'Day 3 — 9:00 AM',
+    h: 'Virupaksha Temple',
+    d: 'Visit one of the oldest temples in India dedicated to Lord Shiva, known for its towering gopuram and carvings.'
+  },
+
+  {
+    t: 'Day 3 — 10:30 AM',
+    h: 'Hampi Bazaar',
+    d: 'Explore vibrant local markets for souvenirs, jewelry, and handmade crafts.'
+  },
+
+  {
+    t: 'Day 3 — 11:30 AM',
+    h: 'Lakshmi Narasimha Statue',
+    d: 'Witness the largest monolithic statue of Lord Narasimha, an iconic structure of Hampi.'
+  },
+
+  {
+    t: 'Day 3 — 12:30 PM',
+    h: 'Royal Enclosure',
+    d: 'Visit Lotus Mahal, Elephant Stables, and Queen’s Bath showcasing Indo-Islamic architecture.'
+  },
+
+  {
+    t: 'Day 3 — 2:30 PM',
+    h: 'Vittala Temple & Stone Chariot',
+    d: 'Explore the iconic stone chariot and musical pillars at Vijaya Vittala Temple.'
+  },
+
+  {
+    t: 'Day 3 — 4:00 PM',
+    h: 'Departure from Hampi',
+    d: 'Begin your return journey to Bengaluru after a fulfilling exploration.'
+  },
+
+  {
+    t: 'Day 3 — 11:30 PM',
+    h: 'Arrival at Bengaluru',
+    d: 'Reach Bengaluru between 11:00 PM and 12:00 AM.'
+  }
+],   facts:[{i:'🏛️',l:'Heritage',v:'UNESCO World Heritage'},{i:'🌡️',l:'Best Season',v:'Oct–Feb'},{i:'🚌',l:'Distance',v:'340 km'},{i:'⏳',l:'Empire Period',v:'14th–16th Century'}],
    carry:['Comfortable walking shoes (cobblestones everywhere)','Sun hat & sunscreen (essential)','Light cotton clothing','1.5L water bottle','Camera (photography is spectacular)','Small backpack for daytime','Valid Government ID'],
    inclusions:['Return overnight bus transport','1 night guesthouse (twin sharing — island side)','Day 2 breakfast + lunch','Archaeological site entry fees','Certified archaeologist guide','Coracle ride across Tungabhadra'],
    exclusions:['Dinner on Day 2 (many great restaurants to choose from)','Personal shopping at Hampi bazaar','Travel insurance','Monument camera fees'],
@@ -144,7 +411,7 @@ export const TRIPS=[
    contact:{note:'Chembra permit booking starts 72 hours before. Plantation bungalow and packing checklist details sent 48 hours before departure.',nums:['+91 9900980260','+91 7204890439']}},
 
   /* ══ SUNRISE TREKS ══ */
-  {id:13,available:true,imgKey:"uttaribetta",name:'Uttaribetta Sunrise Trek(Including Breakfast)',cat:'sunrise',price:799,oldPrice:849,dist:'130 km',dur:'1 Day',diff:'easy',slots:24,em:'🕌',rating:4.6,reviews:13,
+  {id:13,available:true,imgKey:"uttaribetta",name:'Uttaribetta Sunrise Trek(Including Breakfast)',cat:'sunrise',price:899,oldPrice:849,dist:'130 km',dur:'1 Day',diff:'easy',slots:24,em:'🕌',rating:4.6,reviews:13,
    desc:'A peaceful sunrise trek known for caves, narrow trails, and panoramic views near Pandavapura.',
    overview:['Uttaribetta is one of Karnataka\'s best-kept secrets — a twin-peaked hill near Pandavapura that offers cave exploration, narrow trail scrambles, and some of the most photogenic sunrise panoramas within a 130 km radius of Bengaluru. Unlike the more popular Nandi Hills or Skandagiri, Uttaribetta remains refreshingly uncrowded even on weekends.','The trail begins in the dark before dawn, winding through scrub forest before opening onto rocky ridgelines with sweeping views of the Deccan plateau. The ancient caves carved into the hillside are believed to have been shelters for Pandava warriors — lending this quiet hill a touch of mythological mystique.','This is an ideal first trek for beginners who want more than just a viewpoint walk — the cave sections add a sense of adventure without requiring any technical skill.'],
    highlights:['Ancient cave exploration along the trail','Narrow ridge walks with valley views on both sides','Uncrowded — rarely more than a few groups on the hill','Scenic Deccan plateau panorama at sunrise','Mythological Pandava association adds historical depth','Just 3-hour drive — comfortable day trip from Bengaluru'],
@@ -221,7 +488,7 @@ export const TRIPS=[
    contact:{note:'Please contact the below numbers for pickup details and timings.',nums:['+91  9900980260','+91 7204890439']},
    images:['/images/treks/adiyogiTrip-1.jpg','/images/treks/adiyogiTrip-2.jpg','/images/treks/adiyogiTrip-3.jpg']},
 
-  {id:18,available:true,name:'Beluru & Halebeedu Temple Trail',imgKey:"beluru",cat:'oneday',price:1099,oldPrice:1499,dist:'220 km',dur:'1 Day',diff:'easy',slots:22,em:'🛕',rating:4.9,reviews:10,
+  {id:18,available:true,name:'Beluru & Halebeedu Temple Trail',imgKey:"beluru",cat:'oneday',price:1449,oldPrice:1599,dist:'220 km',dur:'1 Day',diff:'easy',slots:22,em:'🛕',rating:4.9,reviews:10,
    desc:'A cultural exploration of Karnataka\'s finest Hoysala temples at Beluru and Halebeedu — some of the most intricate stone carvings in the world.',
    overview:['The Hoysala temples of Beluru and Halebeedu are among the greatest architectural achievements in Indian history — and among the least-celebrated outside Karnataka. Built between the 11th and 13th centuries, these temples feature thousands of individual sculptural panels covering every surface, depicting scenes from the epics, celestial dancers (Shala Bhanjikas), battle scenes, and intricate geometric patterns so fine that scholars estimate a single craftsman worked on one panel for years.','Beluru\'s Channakeshava Temple is a UNESCO tentative World Heritage Site. The prasada (tower) was never completed — yet what stands today is extraordinary. Halebeedu\'s twin temples (Hoysaleshwara and Shanthaleswhara) are even more elaborate — their horizontal friezes contain over 200 individual life-sized elephants, over 700 horses, and thousands of figures in a continuous visual narrative that stretches for hundreds of metres.','We also stop at Pushpagiri hills — a scenic forested viewpoint above Hassan that most tourists miss — and include an optional halt at Janapada Loka, Karnataka\'s folk culture museum, on the return.'],
    highlights:['Channakeshava Temple, Beluru — UNESCO tentative World Heritage Site','Hoysaleshwara & Shanthaleswara Temples, Halebeedu — finest Hoysala carving','Thousands of individual sculptural panels on every surface','Certified archaeological guide — stories behind every frieze','Pushpagiri hills scenic stop — forested hilltop viewpoint','Optional Janapada Loka folk museum on return'],
@@ -235,12 +502,95 @@ export const TRIPS=[
    images:['/images/treks/beluruTrip-1.jpg','/images/treks/beluruTrip-2.jpg','/images/treks/beluruTrip-3.jpg']},
 
   /* ══ TWO DAY SIGHTSEEING ══ */
-  {id:19,available:true,name:'Udupi Coastal Getaway',imgKey:"udupi",cat:'twoday-sight',price:5499,oldPrice:6999,dist:'400 km',dur:'2D 1N',diff:'easy',slots:20,em:'🌊',rating:4.8,reviews:20,
+  {id:19,available:true,name:'Udupi Coastal Getaway',imgKey:"udupi",cat:'twoday-sight',price:4499,oldPrice:5999,dist:'400 km',dur:'2D 1N',diff:'easy',slots:20,em:'🌊',rating:4.8,reviews:20,
    desc:'A coastal getaway combining the sacred Krishna Temple, serene Malpe Beach, and delicious Udupi-Mangalorean coastal cuisine.',
    overview:['Udupi is one of South India\'s most distinctive destinations — a temple town with a vibrant culinary identity that has influenced vegetarian cooking across the entire country. The Krishna Matha (Krishna Temple), managed by the Pejawar Math, is the heart of the town and the origin of what the world now calls "Udupi cuisine." The temple\'s ritual feeding (Anna Dana) has run continuously for over 800 years.','Malpe Beach — a 30-minute drive from the temple — is one of Karnataka\'s finest stretches of sand: wide, clean, with warm Arabian Sea water and the mysterious St. Mary\'s Islands just offshore by boat. The islands are a geological marvel — basalt columns formed by volcanic activity 88 million years ago, resembling a miniature version of Ireland\'s Giant\'s Causeway.','Day 2 includes a morning visit to the fish market at Malpe harbour (spectacular if you\'ve never seen an active coastal fish auction), a drive up to Manipal\'s scenic viewpoints, and a leisurely return with a stop at Kollur Mookambika Temple for those interested.'],
    highlights:['Krishna Matha temple — 800-year-old continuous tradition','Malpe Beach — wide, clean, warm Arabian Sea','St. Mary\'s Islands — 88-million-year-old volcanic basalt columns','Fresh coastal cuisine — fish thali, kori rotti, neer dosa','Malpe harbour fish market (morning — spectacular)','Optional Kollur Mookambika Temple on return'],
-   itin:[{t:'Day 1 — 7:00 PM',h:'Night Departure from Bengaluru',d:'Board sleeper bus / AC vehicle from Majestic.'},{t:'Day 2 — 6:00 AM',h:'Arrive Udupi',d:'Check into hotel. Freshen up.'},{t:'Day 2 — 8:00 AM',h:'Krishna Matha',d:'Morning puja time at the temple. Guided visit to the Kanakana Kindi window.'},{t:'Day 2 — 10:30 AM',h:'Malpe Beach',d:'Beach time. St. Mary\'s Islands boat trip (optional, ₹200). Seafood lunch at beach shack.'},{t:'Day 2 — 3:00 PM',h:'Udupi Local Markets',d:'Handicraft shopping, Udupi sarees, fresh coconut products.'},{t:'Day 2 — 7:00 PM',h:'Dinner',d:'Traditional Udupi meal at a local restaurant. Neer dosa, sambar, fresh fish curry.'},{t:'Day 3 — 6:00 AM',h:'Malpe Harbour Fish Market',d:'Early morning visit to the bustling fish auction at the harbour.'},{t:'Day 3 — 8:30 AM',h:'Breakfast & Checkout',d:'Checkout from hotel. South Indian breakfast.'},{t:'Day 3 — 10:00 AM',h:'Manipal Viewpoints',d:'Drive through Manipal University campus and hilltop viewpoints.'},{t:'Day 3 — 12:00 PM',h:'Return Drive',d:'Drive to Bengaluru via Shimoga or NH75.'},{t:'Day 3 — 7:00 PM',h:'Bengaluru Arrival',d:'Drop at Majestic.'}],
-   facts:[{i:'📍',l:'Location',v:'Udupi, Karnataka'},{i:'🌊',l:'Beach',v:'Malpe — Arabian Sea'},{i:'🌡️',l:'Best Season',v:'Oct–Mar'},{i:'🚗',l:'Distance',v:'400 km'}],
+itin: [
+  {
+    t: 'Day 1 — 7:00 PM',
+    h: 'Departure from Bengaluru',
+    d: 'Board  bus / Non AC vehicle from Bengaluru towards Udupi.'
+  },
+
+  {
+    t: 'Day 2 — 6:00 AM',
+    h: 'Arrival & Check-in',
+    d: 'Arrive in Udupi, check into hotel/homestay, freshen up and relax.'
+  },
+
+  {
+    t: 'Day 2 — 7:30 AM',
+    h: 'Breakfast',
+    d: 'Enjoy a delicious South Indian breakfast (self-sponsored).'
+  },
+
+  {
+    t: 'Day 2 — 8:30 AM',
+    h: 'Malpe Beach',
+    d: 'Visit one of Karnataka’s cleanest beaches. Enjoy water sports like jet ski, banana ride & parasailing (self-sponsored) or relax by the shore.'
+  },
+
+  {
+    t: 'Day 2 — 11:30 AM',
+    h: 'St. Mary’s Island',
+    d: 'Take a ferry ride (self-sponsored) to explore unique basalt rock formations and turquoise waters.'
+  },
+
+  {
+    t: 'Day 2 — 3:30 PM',
+    h: 'Sri Krishna Temple',
+    d: 'Visit the famous Udupi Krishna Matha, witness the deity through Kanakana Kindi and explore nearby markets.'
+  },
+
+  {
+    t: 'Day 2 — 7:00 PM',
+    h: 'Dinner & Overnight Stay',
+    d: 'Return to stay, relax and have dinner at a local restaurant.'
+  },
+
+  {
+    t: 'Day 3 — 7:00 AM',
+    h: 'Breakfast & Checkout',
+    d: 'Freshen up, have breakfast (self-sponsored) and checkout from stay.'
+  },
+
+  {
+    t: 'Day 3 — 8:00 AM',
+    h: 'Anantha Padmanabha Temple',
+    d: 'Travel to Karkala and visit this serene ancient temple surrounded by greenery and water bodies.'
+  },
+
+  {
+    t: 'Day 3 — 10:30 AM',
+    h: 'Maravanthe Beach',
+    d: 'Witness the rare phenomenon where Arabian Sea and Suparnika River run parallel. Enjoy scenic views and photography stops.'
+  },
+
+  {
+    t: 'Day 3 — 12:30 PM',
+    h: 'Manipal Eco Park & Lunch',
+    d: 'Visit Manipal End Point Eco Park for panoramic views. Have lunch nearby (self-sponsored).'
+  },
+
+  {
+    t: 'Day 3 — 3:30 PM',
+    h: 'Kapu Beach',
+    d: 'Visit Kapu Beach, enjoy lighthouse views and a stunning sunset over the Arabian Sea.'
+  },
+
+  {
+    t: 'Day 3 — 6:00 PM',
+    h: 'Return Journey',
+    d: 'Begin return journey to Bengaluru. Dinner en route (self-sponsored).'
+  },
+
+  {
+    t: 'Day 4 — 4:30 AM',
+    h: 'Arrival at Bengaluru',
+    d: 'Reach Bengaluru early morning (approx. 4:00–5:00 AM) with beautiful coastal memories.'
+  }
+],   facts:[{i:'📍',l:'Location',v:'Udupi, Karnataka'},{i:'🌊',l:'Beach',v:'Malpe — Arabian Sea'},{i:'🌡️',l:'Best Season',v:'Oct–Mar'},{i:'🚗',l:'Distance',v:'400 km'}],
    carry:['Light cotton clothes (coastal heat)','Swimwear','Sunscreen (strong)','Sunglasses & hat','Comfortable sandals for beach','Camera','Valid Government ID'],
    inclusions:['Transport (Bengaluru round trip — sleeper/AC)','1 night hotel (on sharing basis)','Day 2 breakfast','Tour coordinator'],
    exclusions:['All meals except breakfasts','St. Mary\'s Islands boat (₹200 optional)','Personal shopping','Travel insurance'],
@@ -248,12 +598,89 @@ export const TRIPS=[
    contact:{note:'Please contact the below numbers for pickup details and timings.',nums:['+91 9900980260','+91 7204890439']},
    images:['/images/treks/udupiTrip-1.jpg','/images/treks/udupiTrip-2.jpg','/images/treks/udupiTrip-3.jpg']},
 
-  {id:20,available:true,name:'Gokarna Beach Trek',imgKey:"gokarna",cat:'twoday-sight',price:2799,oldPrice:3799,dist:'480 km',dur:'2D 1N',diff:'moderate',slots:18,em:'🏖️',rating:4.9,reviews:20,
+  {id:20,available:true,name:'Gokarna Beach Trek And Murudeshwara',imgKey:"gokarna",cat:'twoday-sight',price:4499,oldPrice:5499,dist:'480 km',dur:'2D 1N',diff:'moderate',slots:18,em:'🏖️',rating:4.9,reviews:20,
    desc:'A unique coastal trek connecting five beaches across dramatic ocean cliffs — Gokarna\'s famous beach-hopping trail with stunning sunset views.',
    overview:['Gokarna is where pilgrimage meets beach paradise. The ancient Mahabaleshwara temple sits in a small temple town on the coast, while just 30 minutes walk away, the beaches cascade south one after another — Om Beach (shaped like the Om symbol from above), Half Moon Beach, Paradise Beach, and Kudle Beach — each more secluded than the last, each connected by a coastal trail that winds over rocky headlands with Arabian Sea crashing far below.','The Gokarna beach trek — typically 10–14 km depending on the route — is one of India\'s most unique trekking experiences: you are never far from the sea, the views from the headlands are vertiginous and breathtaking, and each beach you arrive at feels like a discovery. The trek is moderately challenging due to rocky sections and heat, but the reward of Paradise Beach (accessible only on foot or by boat) is worth every step.','We stay overnight at Om Beach in a beachside shack — falling asleep to the sound of waves and waking up to one of the most beautiful sunrises you\'ll ever witness. Day 2 morning is spent swimming and relaxing before the return drive.'],
    highlights:['Trek connecting 5 beaches across coastal headlands','Om Beach — shaped like the Om symbol from above','Paradise Beach — accessible only by foot or boat','Dramatic Arabian Sea cliff views throughout the trail','Overnight beach shack stay at Om Beach','Ancient Mahabaleshwara Temple visit in Gokarna town'],
-   itin:[{t:'Day 1 — 6:00 PM',h:'Departure from Bengaluru',d:'Board overnight vehicle from Majestic.'},{t:'Day 2 — 6:00 AM',h:'Arrive Gokarna',d:'Freshen up at guesthouse. Light breakfast.'},{t:'Day 2 — 8:00 AM',h:'Mahabaleshwara Temple',d:'Visit the ancient temple. Walk through Gokarna town\'s charming streets.'},{t:'Day 2 — 10:00 AM',h:'Beach Trek Begins',d:'Start at Gokarna Main Beach. Trek south via Kudle → Om → Half Moon → Paradise Beach.'},{t:'Day 2 — 1:00 PM',h:'Paradise Beach',d:'Arrive at Paradise Beach. Swim, lunch (packed), relax.'},{t:'Day 2 — 4:00 PM',h:'Om Beach Check-in',d:'Walk back to Om Beach. Check into beachside shack accommodation.'},{t:'Day 2 — 7:00 PM',h:'Sunset & Dinner',d:'Watch the Arabian Sea sunset from Om Beach. Seafood dinner at shack restaurant.'},{t:'Day 3 — 6:00 AM',h:'Sunrise & Morning Swim',d:'Sunrise over the ocean. Morning swim. Packed breakfast at shack.'},{t:'Day 3 — 9:00 AM',h:'Checkout & Return',d:'Depart for Bengaluru. Return drive via NH66.'},{t:'Day 3 — 5:00 PM',h:'Bengaluru Arrival',d:'Drop at Majestic.'}],
-   facts:[{i:'📍',l:'Location',v:'Gokarna, Karnataka'},{i:'🏖️',l:'Trek',v:'10–14 km coastal trail'},{i:'⚡',l:'Difficulty',v:'Moderate (heat & rocks)'},{i:'🌡️',l:'Best Season',v:'Oct–Mar'}],
+itin: [
+  {
+    t: 'Day 1 — 6:00 PM',
+    h: 'Departure from Bengaluru',
+    d: 'Board overnight vehicle from Majestic towards Gokarna.'
+  },
+
+  {
+    t: 'Day 2 — 6:00 AM',
+    h: 'Arrival & Check-in',
+    d: 'Arrive in Gokarna, check into shared campsite, freshen up and relax.'
+  },
+
+  {
+    t: 'Day 2 — 7:30 AM',
+    h: 'Breakfast by the Beach',
+    d: 'Enjoy a warm breakfast with scenic ocean views.'
+  },
+
+  {
+    t: 'Day 2 — 8:30 AM',
+    h: 'Beach Trek Begins',
+    d: 'Start the famous Gokarna Beach Trek covering Belekan, Paradise, Half Moon, Om, and Nirvana Beach.'
+  },
+
+  {
+    t: 'Day 2 — 1:00 PM',
+    h: 'Lunch Break',
+    d: 'Take a break at a beach shack or cliffside café for lunch (self-sponsored).'
+  },
+
+  {
+    t: 'Day 2 — 5:30 PM',
+    h: 'Return to Campsite',
+    d: 'Conclude the trek by early evening and return to campsite.'
+  },
+
+  {
+    t: 'Day 2 — 6:30 PM',
+    h: 'Sunset Chill Session',
+    d: 'Relax and unwind with a beautiful sunset by the sea.'
+  },
+
+  {
+    t: 'Day 2 — 8:00 PM',
+    h: 'Dinner & Overnight Stay',
+    d: 'Dinner (self-sponsored) and overnight stay at campsite.'
+  },
+
+  {
+    t: 'Day 3 — 7:00 AM',
+    h: 'Checkout & Departure',
+    d: 'Pack up, freshen up and checkout from campsite.'
+  },
+
+  {
+    t: 'Day 3 — 9:00 AM',
+    h: 'Sharavati Backwaters Boat Ride',
+    d: 'Head to Honnavar for a scenic boat ride and explore mangrove forests (self-sponsored).'
+  },
+
+  {
+    t: 'Day 3 — 1:00 PM',
+    h: 'Murudeshwar Temple Visit',
+    d: 'Visit the iconic Murudeshwar Temple and towering Shiva statue.'
+  },
+
+  {
+    t: 'Day 3 — 3:00 PM',
+    h: 'Return Journey',
+    d: 'Begin return journey to Bengaluru. Dinner stop en route (self-sponsored).'
+  },
+
+  {
+    t: 'Day 4 — 5:00 AM',
+    h: 'Arrival at Bengaluru',
+    d: 'Reach Bengaluru early morning with unforgettable coastal memories.'
+  }
+],   facts:[{i:'📍',l:'Location',v:'Gokarna, Karnataka'},{i:'🏖️',l:'Trek',v:'10–14 km coastal trail'},{i:'⚡',l:'Difficulty',v:'Moderate (heat & rocks)'},{i:'🌡️',l:'Best Season',v:'Oct–Mar'}],
    carry:['Swimwear (multiple sets)','Trekking shoes for rocky headlands','Flip flops for beach','Sunscreen SPF50+ (crucial)','Sunglasses & hat','2L water (refill en route)','Power bank','Dry bag for electronics'],
    inclusions:['Transport (Bengaluru round trip)','1 night Om Beach shack accommodation','2 Breakfsats & 1 Dinner ','Trek guide for coastal trail'],
    exclusions:['All other meals (seafood at Om Beach is excellent & cheap)','Boat from Paradise Beach (optional, ₹300)','Personal beverages','Travel insurance'],
@@ -261,14 +688,103 @@ export const TRIPS=[
    contact:{note:'Please contact the below numbers for pickup details and timings.',nums:['+91 9900980260','+91 7204890439']},
    images:['/images/treks/gokarnaTrek-1.jpg','/images/treks/gokarnaTrek-2.jpg','/images/treks/gokarnaTrek-3.jpg']},
 
-  {id:21,available:true,name:'Kodaikanal Hill Escape',imgKey:"kodaikanal",cat:'twoday-sight',price:3499,oldPrice:4699,dist:'460 km',dur:'2D 1N',diff:'easy',slots:20,em:'🌸',rating:4.8,reviews:2,
+  {id:21,available:true,name:'Kodaikanal Hill Escape',imgKey:"kodaikanal",cat:'twoday-sight',price:4499,oldPrice:4699,dist:'460 km',dur:'2D 1N',diff:'easy',slots:20,em:'🌸',rating:4.8,reviews:2,
    desc:'A peaceful Tamil Nadu hill station getaway — Kodai Lake, Coaker\'s Walk, Bryant Park, and misty pine forests.',
    overview:['Kodaikanal — "the gift of the forest" in Tamil — sits at 2,133 m in the Palani Hills of Tamil Nadu, making it one of South India\'s highest and most serene hill stations. Unlike Ooty or Coorg, Kodaikanal retains a quiet, unhurried character: its star-shaped lake at the centre of town is ringed by towering eucalyptus and pine, and the surrounding hills are laced with gentle walking paths that disappeared into low cloud even in October.','Coaker\'s Walk is the jewel of Kodaikanal — a 1 km clifftop promenade with a telescope observatory, built by a British engineer in 1872, that on clear days offers views all the way down to the plains of Madurai hundreds of metres below. Bryant Park\'s botanical garden is another highlight — 20 acres of cultivated beauty at 2,100 m.','The journey to Kodaikanal is half the experience — the ghat road up from Palani involves 7 hairpin bends with increasingly dramatic views as the vehicle climbs through tea and coffee estates into the cloud zone.'],
    highlights:['Kodai Lake — star-shaped, boat rides, pine-lined shores','Coaker\'s Walk — clifftop promenade with telescope observatory','Bryant Park botanical garden at 2,133 m','Bear Shola Falls in lush forest setting','Pine Forest walk — misty, atmospheric, photogenic','Pillar Rocks — 3 giant granite monoliths rising from the forest'],
-   itin:[{t:'Day 1 — 8:00 PM',h:'Night Departure from Bengaluru',d:'Board overnight sleeper bus from Majestic to Kodaikanal.'},{t:'Day 2 — 7:00 AM',h:'Arrive Kodaikanal',d:'Check into hotel. Freshen up. Breakfast.'},{t:'Day 2 — 9:30 AM',h:'Kodai Lake',d:'Boating on the star-shaped lake (optional, ₹150). Walk the 5 km lakeside path.'},{t:'Day 2 — 12:00 PM',h:'Coaker\'s Walk & Observatory',d:'Walk the clifftop promenade. Telescope views down to the plains. Photography.'},{t:'Day 2 — 2:00 PM',h:'Lunch',d:'South Indian or continental meal at a Kodaikanal café.'},{t:'Day 2 — 3:30 PM',h:'Pillar Rocks & Green Valley',d:'3 giant monoliths with vertiginous views into the forested valley.'},{t:'Day 2 — 5:30 PM',h:'Bryant Park & Pine Forest',d:'Botanical gardens, then walk through the atmospheric pine forest.'},{t:'Day 2 — 8:00 PM',h:'Dinner & Rest',d:'Dinner at hotel/restaurant. Rest.'},{t:'Day 3 — 7:00 AM',h:'Breakfast & Bear Shola Falls',d:'Morning visit to the waterfall in the forest. Short walk.'},{t:'Day 3 — 10:00 AM',h:'Checkout & Return',d:'Checkout. Board bus/vehicle back to Bengaluru.'},{t:'Day 3 — 7:00 PM',h:'Bengaluru Arrival',d:'Drop at Majestic.'}],
-   facts:[{i:'📍',l:'Location',v:'Kodaikanal, Tamil Nadu'},{i:'🏔️',l:'Altitude',v:'2,133 m'},{i:'🌡️',l:'Climate',v:'Cool & Misty 8–20°C'},{i:'🌸',l:'Best Season',v:'Oct–Jun'}],
+itin: [
+  {
+    t: 'Day 1 — 8:00 PM',
+    h: 'Night Departure from Bengaluru',
+    d: 'Board overnight sleeper bus from Bengaluru to Kodaikanal.'
+  },
+
+  {
+    t: 'Day 2 — 7:00 AM',
+    h: 'Arrival & Freshen Up',
+    d: 'Reach homestay, freshen up and have breakfast (self-sponsored).'
+  },
+
+  {
+    t: 'Day 2 — 9:00 AM',
+    h: 'Silver Cascade Waterfalls',
+    d: 'Visit the beautiful cascading waterfall on the way into Kodaikanal.'
+  },
+
+  {
+    t: 'Day 2 — 10:30 AM',
+    h: 'Pillar Rocks',
+    d: 'Enjoy scenic valley views from the iconic rock formations.'
+  },
+
+  {
+    t: 'Day 2 — 12:00 PM',
+    h: 'Guna Caves',
+    d: 'Explore the mysterious caves surrounded by dense forest.'
+  },
+
+  {
+    t: 'Day 2 — 1:30 PM',
+    h: 'Pine Forest',
+    d: 'Walk through tall pine trees and capture aesthetic photos.'
+  },
+
+  {
+    t: 'Day 2 — 3:30 PM',
+    h: 'Kodaikanal Lake',
+    d: 'Relax by the lake. Optional boating available.'
+  },
+
+  {
+    t: 'Day 2 — 6:00 PM',
+    h: 'Check-in & Leisure',
+    d: 'Travel to campsite/stay and relax.'
+  },
+
+  {
+    t: 'Day 2 — 8:00 PM',
+    h: 'Campfire & Overnight Stay',
+    d: 'Dinner (self-sponsored), campfire with fellow travellers and overnight rest.'
+  },
+
+  {
+    t: 'Day 3 — 6:30 AM',
+    h: 'Coaker’s Walk',
+    d: 'Enjoy a peaceful morning stroll with scenic valley views.'
+  },
+
+  {
+    t: 'Day 3 — 8:00 AM',
+    h: 'Vattakanal Waterfalls',
+    d: 'Visit the serene waterfall surrounded by lush greenery.'
+  },
+
+  {
+    t: 'Day 3 — 9:30 AM',
+    h: 'Dolphin’s Nose View Point',
+    d: 'Experience breathtaking panoramic views of the valley.'
+  },
+
+  {
+    t: 'Day 3 — 11:30 AM',
+    h: 'Breakfast / Lunch',
+    d: 'Have breakfast or lunch (self-sponsored) as per schedule.'
+  },
+
+  {
+    t: 'Day 3 — 1:00 PM',
+    h: 'Return Journey',
+    d: 'Begin return journey to Bengaluru.'
+  },
+
+  {
+    t: 'Day 3 — Late Night',
+    h: 'Arrival at Bengaluru',
+    d: 'Reach Bengaluru late at night with unforgettable memories.'
+  }
+],   facts:[{i:'📍',l:'Location',v:'Kodaikanal, Tamil Nadu'},{i:'🏔️',l:'Altitude',v:'2,133 m'},{i:'🌡️',l:'Climate',v:'Cool & Misty 8–20°C'},{i:'🌸',l:'Best Season',v:'Oct–Jun'}],
    carry:['Warm jacket & thermals (it gets cold)','Light rain jacket','Comfortable walking shoes','Camera','Power bank','Water bottle','Personal medications'],
-   inclusions:['Overnight bus/AC vehicle (return)','1 night hotel (twin sharing)','Day 2 breakfast + dinner','Coaker\'s Walk entry','Bryant Park entry','Tour coordinator'],
+   inclusions:['Overnight bus/Non AC vehicle (return)','1 night hotel (twin sharing)',' 2 breakfast + 1 dinner','Coaker\'s Walk entry','Bryant Park entry','Tour coordinator'],
    exclusions:['Lake boating (optional)','Lunches (individual)','Personal shopping','Travel insurance'],
    guidelines:['Report at pickup point 15 min before departure','Booking without reading the itinerary and T&C is the customers responsibility.','As this is a budget trip, travellers must coordinate with the Trip Guide from Trip Karunadu, and the Trip Guide’s decisions will be final.','If the trip is not available on a particular date, an alternate trek will be offered. Refunds will not be initiated.','Inform guide of any medical conditions before trek'],
    contact:{note:'Please contact the below numbers for pickup details and timings.',nums:['+91 9900980260','+91 7204890439']},
