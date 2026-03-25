@@ -36,7 +36,7 @@ export default function FeaturedTrips() {
       {/* 🔥 Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center scale-105"
-        style={{ backgroundImage: "url('public/images/treks/featuredback.jpg')" }}
+        style={{ backgroundImage: "url('/images/treks/featuredback.jpg')" }}
       />
 
       {/* 🔥 Overlay (lighter for cards visibility) */}
