@@ -74,7 +74,7 @@ export default function TripDetailPage() {
               <div className="text-white/30 text-sm line-through">{formatPrice(trip.oldPrice)}</div>
             )}
             <div className="text-3xl font-black text-orange">{formatPrice(trip.price)}</div>
-            <div className="text-white/35 text-xs mb-4">per person · all inclusive</div>
+            <div className="text-white/35 text-xs mb-4">per person · breakfast Inlcuded</div>
             <button onClick={() => setShowBooking(true)} className="btn-primary w-full py-3">
               <i className="fas fa-ticket-alt mr-2" /> Book Now
             </button>
