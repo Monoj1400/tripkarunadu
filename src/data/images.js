@@ -18,6 +18,6 @@ export const TRIP_IMGS={
   'mysuru':'/images/treks/mysuru.jpeg',
   'kabini':'public/images/treks/kabini.jpeg',
   'shivanasamudra': '/images/treks/shivanasamudra.jpeg',
-  'bheemeshwari': 'public/images/treks/bheemeshwari.jpg',
-  'wayanad': 'public/images/treks/wayanad.jpg',
+  'bheemeshwari': '/images/treks/bheemeshwari.jpg',
+  'wayanad': '/images/treks/wayanad.jpg',
 };
