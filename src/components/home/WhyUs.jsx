@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 
 const FEATURES = [
-  { icon: 'fa-map-marker-alt', title: '200+ Destinations', desc: 'Carefully curated treks and trips across Karnataka and beyond.' },
+  { icon: 'fa-map-marker-alt', title: '20+ Destinations', desc: 'Carefully curated treks and trips across Karnataka and beyond.' },
   { icon: 'fa-shield-alt',     title: 'No Hidden Charges', desc: 'What you see is what you pay. Fully inclusive pricing, always.' },
   { icon: 'fa-users',          title: 'Local Experts',     desc: 'Our guides are locals who know every trail, every shortcut, every sunrise spot.' },
   { icon: 'fa-headset',        title: '24/7 Support',      desc: 'Coordinator available on WhatsApp from booking to drop-off.' },
