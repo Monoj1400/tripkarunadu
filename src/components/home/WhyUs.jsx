@@ -14,7 +14,7 @@ export default function WhyUs() {
       {/* 🔥 Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center scale-105"
-        style={{ backgroundImage: "url('public/images/treks/whyusback.jpg')" }}
+        style={{ backgroundImage: "url('/images/treks/whyusback.jpg')" }}
       />
 
       {/* 🔥 Overlay (lighter than hero) */}
