@@ -16,7 +16,7 @@ export const TRIP_IMGS={
   'beluru':         '/images/treks/beluru.jpeg',
   'adiyogi':        '/images/treks/adiyogi.jpeg',
   'mysuru':'/images/treks/mysuru.jpeg',
-  'kabini':'/public/images/treks/kabini.jpeg',
+  'kabini':'public/images/kabini.jpeg',
   'shivanasamudra': '/images/treks/shivanasamudra.jpeg',
   'bheemeshwari': 'public/images/treks/bheemeshwari.jpg',
   'wayanad': 'public/images/treks/wayanad.jpg',
