@@ -74,7 +74,7 @@ export default function TripCard({ trip }) {
               <div className="text-white/30 text-xs line-through">{formatPrice(trip.oldPrice)}</div>
             )}
             <div className="text-orange font-bold text-base">{formatPrice(trip.price)}</div>
-            <div className="text-white/35 text-[10px]">per person</div>
+            <div className="text-white/35 text-[10px]">per person Breakfast Included</div>
           </div>
           <button
             onClick={(e) => { e.stopPropagation(); navigate(`/trips/${trip.id}`) }}
