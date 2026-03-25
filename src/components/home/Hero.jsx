@@ -10,7 +10,7 @@ export default function Hero() {
       {/* 🔥 Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center scale-105"
-        style={{ backgroundImage: "url('public/images/treks/heroback.jpg')" }}
+        style={{ backgroundImage: "url('/images/treks/heroback.jpg')" }}
       />
 
       {/* 🔥 Dark + Blur Overlay */}
