@@ -22,7 +22,7 @@ export default function Footer() {
           </p>
           <div className="flex gap-3">
             {[
-              ['fab fa-instagram', 'https://instagram.com'],
+              ['fab fa-instagram', 'https://www.instagram.com/tripkarunadu?utm_source=qr&igsh=MW5oMTl0d2V4eHdseg=='],
               ['fab fa-whatsapp', 'https://wa.me/919900980260'],
               ['fab fa-youtube', 'https://youtube.com'],
             ].map(([icon, href]) => (
@@ -78,7 +78,7 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-2 text-white/45 text-sm">
               <i className="fas fa-envelope text-orange text-xs w-4"/>
-              hello@tripkarunadu.in
+              tripkarunadu@gmail.com
             </li>
             <li className="flex items-center gap-2 text-white/45 text-sm">
               <i className="fas fa-map-marker-alt text-orange text-xs w-4"/>
