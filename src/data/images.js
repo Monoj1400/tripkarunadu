@@ -20,4 +20,11 @@ export const TRIP_IMGS={
   'shivanasamudra': '/images/treks/shivanasamudra.jpeg',
   'bheemeshwari': '/images/treks/bheemeshwari.jpg',
   'wayanad': '/images/treks/wayanad.jpg',
+  'nethravathi':'/images/treks/Nethravati.jpg',
+  'tadiandamol':'/images/treks/Tadiandamol.jpg',
+  'bandaje':'/images/treks/Bandaje2.jpg',
+  'ettinabhuja':'/images/treks/ettinabhuja.webp',
+  'didupe':'/images/treks/didupe pac.png'
+
+  
 };
