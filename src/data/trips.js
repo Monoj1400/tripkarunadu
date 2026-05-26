@@ -791,5 +791,5 @@ itin: [
    images:['/images/treks/kodaikanalTrip-1.jpg','/images/treks/kodaikanalTrip-2.jpg','/images/treks/kodaikanalTrip-3.jpg']},
 ];
 
-export const CNAMES={sunrise:'🌅 Sunrise Treks',oneday:'☀️ One Day Sightseeing','twoday-trek':'⛺ Two Day Treks','twoday-sight':'🗺️ Two Day Sightseeing'};
+export const CNAMES={sunrise:'Sunrise Treks',oneday:' One Day Sightseeing','twoday-trek':' Two Day Treks','twoday-sight':' Two Day Sightseeing'};
 export const CCOLORS={sunrise:'135deg,#7B4B1A,#E39B3A',oneday:'135deg,#2F4F2F,#5a9e5a','twoday-trek':'135deg,#1a3a5e,#2F6BAF','twoday-sight':'135deg,#4a1a4a,#8a3a8a'};
